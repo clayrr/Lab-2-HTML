@@ -8,9 +8,24 @@
 </head>
 <body>
     <div class="grid place-items-center h-screen content-center">
-        <button class='text-blue'>hiiii!</button>
+        <button class='un-cloak text-blue'>hiiii!</button>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/preset-uno.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/preset-attributify.global.js"></script>
+    <script>
+        window.__unocss = {
+          presets: [
+            () => window.__unocss_runtime.presets.presetUno(),
+            () => window.__unocss_runtime.presets.presetAttributify(),
+          ],
+        }
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/core.global.js"></script>
+      <style>
+        [un-cloak] {
+            display: none;
+        }
+      </style>
 </body>
 </html>
