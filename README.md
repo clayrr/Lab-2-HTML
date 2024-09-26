@@ -4,7 +4,8 @@ Our project is a boba tea information site. We have one page explaining the base
 giving information on the toppings, and one page analyzing the sugar and ice levels. Our goal is to give a comprehensive explanation on the process of curating your perfect boba.  
 
 # HTML DOM Tree
-!DOCTYPE html>
+```sh
+ !DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -58,3 +59,4 @@ giving information on the toppings, and one page analyzing the sugar and ice lev
 </body>
 
 </html> make an html Dom tree of this in readme.md form
+```
