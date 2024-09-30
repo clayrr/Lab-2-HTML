@@ -16,6 +16,16 @@ giving information on the toppings, and one page analyzing the sugar and ice lev
 5. What is the DOM?
   - document object model which is what the html ast is based on and allows it to be modified with javascript
 
+# css questions
+
+1. What does **CSS** stand for?
+2. What are the 3 ways to include CSS in your HTML?
+3. Describe the syntax for writing CSS.
+4. What is a **CSS Selector**?
+5. What is a *class*? How is it different from an *ID*? 
+6. Explain the difference between these [CSS units](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units): `px`, `em`, `vw`, `%`, `rem`.
+7. What is the difference between `margin` and `padding`?
+8. What are different CSS positioning properties? What are the differences between them?
 
 # HTML DOM Tree
 

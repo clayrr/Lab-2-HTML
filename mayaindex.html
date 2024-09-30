@@ -7,6 +7,7 @@
 	<title>maya - boba tea bases</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css">
 	<link rel="stylesheet" href="./styles/index.css">
+	<link rel='stylesheet' href='./styles/mayaindex.css'>
 </head>
 
 
@@ -50,6 +51,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/preset-uno.global.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/preset-attributify.global.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/preset-icons.global.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/preset-web-fonts.global.js"></script>
 	<script>
 		window.__unocss = {
 			presets: [
@@ -58,6 +60,12 @@
 				() => window.__unocss_runtime.presets.presetIcons({
 					scale: 1.2,
 					cdn: 'https://esm.sh/',
+				}),
+				() => window.__unocss_runtime.presets.presetWebFonts({
+					provider: 'google',
+					fonts: {
+						sans: 'Internal'
+					}
 				}),
 			],
 		};
