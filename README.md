@@ -44,6 +44,13 @@ giving information on the toppings, and one page analyzing the sugar and ice lev
   - fixed is positioned relative to the browser window, and stays fixed when the page is scrolled, also removed from the normal document flow.
   - sticky is positioned by toggling between relative and fixed positioning depending on the user's scroll position (acts like relative until the page is scrolled to a certain point, then becomes fixed)
 
+# js questions
+
+1. [Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash#adding_variables_to_store_our_data): What is the difference between `let` and `const`? Why would you use one over the other?
+2. Describe what `document.querySelector()` does. What does *document* refer to?
+3. What is an `event` and `event handler`? Give an [example](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) of each.
+
+
 # HTML DOM Tree
 
 <img src="./images/domVisualization.svg" alt="dom visualization" />
