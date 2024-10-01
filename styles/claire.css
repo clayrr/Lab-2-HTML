@@ -1,0 +1,13 @@
+ul li:first-child, ol li:first-child {
+	color: blue;
+}
+
+p {
+	padding: 0;
+	margin-top: 1.5vh;
+	margin-bottom: 1.5vh;
+}
+
+.shared-property {
+	font-weight: bold;
+}

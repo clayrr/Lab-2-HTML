@@ -1,3 +1,18 @@
 [un-cloak] {
 	display: none;
 }
+
+a {
+	display: inline-block;
+	color: #3498db;
+	font-size: 16px;
+	text-decoration: none;
+	transition: color 0.3s ease, font-size 0.3s ease, transform 0.6s ease;
+}
+
+a:hover {
+	color: #e74c3c;
+	font-size: 20px;
+	transform: rotateY(360deg);
+}
+  
