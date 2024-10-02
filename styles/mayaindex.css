@@ -1,5 +1,5 @@
 ul li:first-child, ol li:first-child {
-	color: red;
+	color: blue;
 }
 
 p {
