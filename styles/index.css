@@ -15,4 +15,17 @@ a:hover {
 	font-size: 20px;
 	transform: rotateY(360deg);
 }
+
+
+.flex-container {
+	display: flex;
+	background-color: DodgerBlue;
+  }
   
+  .flex-container > div {
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+  }
+
