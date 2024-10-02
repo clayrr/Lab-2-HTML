@@ -12,3 +12,26 @@ p {
 	font-weight: bold;
 }
 
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+	gap: 10px; 
+}
+
+.image-grid img {
+	width: 100%;
+	height: auto;
+	margin-left: 200px;
+	margin-right: 200px;
+	object-fit: cover;
+	max-width: 600px;
+	max-height: 200px;
+	vertical-align: middle;
+}
+.firstimg{
+	max-width: 1000px;
+	max-height: 1000px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
