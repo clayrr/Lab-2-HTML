@@ -8,12 +8,40 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css">
 	<link rel="stylesheet" href='./styles/index.css'>
 	<link rel='stylesheet' href='./styles/claire.css'>
+
+	<style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+            gap: 10px; 
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+			margin-left: 200px;
+			margin-right: 200px;
+            object-fit: cover;
+            max-width: 600px;
+            max-height: 200px;
+			vertical-align: middle;
+        }
+		.firstimg{
+			max-width: 1000px;
+            max-height: 1000px;
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+    </style>
+	
+
+
 </head>
 
 <body un-cloak justify-center items-center text-center>
 	<h1 text-20>claire - Bubble Tea Toppings</h1>
 
-	<img src="./images/boba_toppings.jpg" alt="Bubble Tea Toppings" w-full h-auto />
+	<img class = "firstimg" src="./images/boba_toppings.jpg" alt="Bubble Tea Toppings" w-full h-auto/>
 
 	<p text-5 class="shared-property">In this section, we'll inform you of various toppings for your boba tea.</p>
 
@@ -35,9 +63,11 @@
 
 	<h3>Images of the mentioned toppings are below</h3>
 
-	<img src="./images/toppings_boba.jpg" alt="Toppings Boba" w-full h-auto />
-	<img src="./images/toppings_grassjelly.jpg" alt="Toppings Grass Jelly" w-full h-auto />
-	<img src="./images/toppings_pudding.png.webp" alt="Toppings Pudding" w-full h-auto />
+	<div class="image-grid">
+		<img src="./images/toppings_boba.jpg" alt="Toppings Boba" w-full h-auto/>
+		<img src="./images/toppings_grassjelly.jpg" alt="Toppings Grass Jelly" w-full h-auto />
+		<img src="./images/toppings_pudding.png.webp" alt="Toppings Pudding" w-full h-auto />
+	</div>
 
 	<p>for more info, please visit the index page linked below</p>
 	<a underline text-blue-300 href="index.html" text-inherit>link to index page</a>
